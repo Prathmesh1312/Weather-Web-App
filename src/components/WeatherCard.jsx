@@ -91,7 +91,7 @@ export function WeatherCard({ weather }) {
             </span>
             <span className="flex flex-row gap-2 py-6 font-bold">
               <Sunset />
-              {moment.unix(1727722031).format('HH:mm:ss')}
+              {moment.unix(weather.sys.sunset).format('HH:mm:ss')}
             </span>
           </div>
         </CardContent>
