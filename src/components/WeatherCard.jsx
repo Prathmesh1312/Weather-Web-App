@@ -70,7 +70,7 @@ export function WeatherCard({ weather }) {
               <Thermometer />
               Feels Like
             </span>
-            <p className=" font-bold">{weather.main.feels_like} &deg;</p>
+            <p className=" font-bold">{weather.main.feels_like} &deg;C</p>
           </div>
           <div className="border border-black w-full rounded-lg p-3 flex justify-center items-center flex-col">
             <span className="flex flex-row gap-2 py-3">
@@ -82,7 +82,7 @@ export function WeatherCard({ weather }) {
               <Gauge />
               Wind Direction
             </span>
-            <p className=" font-bold">{weather.wind.deg} &deg;C</p>
+            <p className=" font-bold">{weather.wind.deg} &deg;</p>
           </div>
           <div className="border border-black w-full gap-5 rounded-lg p-3 flex justify-center items-center flex-col">
             <span className="flex flex-row gap-2 py-6 font-bold">
