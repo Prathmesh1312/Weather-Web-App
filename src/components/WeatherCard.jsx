@@ -56,21 +56,21 @@ export function WeatherCard({ weather }) {
               <ArrowDownToDot />
               Pressure
             </span>
-            <p className=" font-bold">{weather.main.pressure} Pa</p>;
+            <p className=" font-bold">{weather.main.pressure} Pa</p>
           </div>
           <div className="border border-black w-full rounded-lg p-3 flex justify-center items-center flex-col">
             <span className="flex flex-row gap-2 py-6">
               <Droplet />
               Humidity
             </span>
-            <p className=" font-bold">{weather.main.humidity} g/m3</p>;
+            <p className=" font-bold">{weather.main.humidity} g/m3</p>
           </div>
           <div className="border border-black w-full rounded-lg p-3 flex justify-center items-center flex-col">
             <span className="flex flex-row gap-2 py-6">
               <Thermometer />
               Feels Like
             </span>
-            <p className=" font-bold">{weather.main.feels_like} &deg;C</p>;
+            <p className=" font-bold">{weather.main.feels_like} &deg;</p>;
           </div>
           <div className="border border-black w-full rounded-lg p-3 flex justify-center items-center flex-col">
             <span className="flex flex-row gap-2 py-3">
